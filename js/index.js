@@ -198,10 +198,10 @@ document.onscroll=function(){
     if(begin()){
         for(var i=0;i<data[num1].length;i++){
             $('.liu').eq(i%4).append($('<div class="box"><div class="info"><div class="pic"><img src="'+data[num1][i].src+'"></div><div class="tittle">'+data[num1][i].title+'</div></div></div>'));
-        }
-    }
-    num1++;console.log(num1,data.length)
+        }num1++;console.log(num1,data.length)
     return num1;
+    }
+    
 }
 
 
